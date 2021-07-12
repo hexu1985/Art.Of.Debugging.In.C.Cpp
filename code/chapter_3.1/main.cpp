@@ -1,5 +1,5 @@
 //main.cpp
-#include <iostream>
+#include <stdio.h>
 #include "student.h"
 #include "teacher.h"
 int main(int argc,char ** argv)
