@@ -5,7 +5,7 @@ INCLUDES:=.
 SRCDIR:=
 
 CC:=g++
-CFLAGS:= -g -Wall -O0 -static -static-libgcc -static-libstdc++ 
+CFLAGS:= -std=c++11 -g -Wall -O0 -static -static-libgcc -static-libstdc++ 
 CPPFLAGS:= $(CFLAGS)
 CPPFLAGS+= $(addprefix -I,$(INCLUDES))
 CPPFLAGS+= -I.
